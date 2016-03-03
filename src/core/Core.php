@@ -10,4 +10,5 @@ use pocketmine\Player;
 use pocketmine\level\Level;
 use pocketmine\Server;
 
-class Core extends PluginBase implements Listener{
+class Core extends PluginBase implements Listener{}
+?>
