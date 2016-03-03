@@ -10,5 +10,13 @@ use pocketmine\Player;
 use pocketmine\level\Level;
 use pocketmine\Server;
 
-class Core extends PluginBase implements Listener{}
+class Core extends PluginBase implements Listener{
+  
+  private $iGame = [];
+  private $players = [];
+  
+  public functin OnEnable(){
+    $this->getLogger()->info("§Enabled!");
+  }
+}
 ?>
