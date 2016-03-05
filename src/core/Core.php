@@ -1,5 +1,8 @@
 <?php
 
+  /////////////
+ //NOT READY//
+/////////////
 namespace FeatureCore;
 
 use pocketmine\plugin\PluginBase;
